@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>519</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QFrame" name="gridFrame">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>135</y>
+      <width>451</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+button-layout: 1px;
+font: 75 13pt &quot;카페24 써라운드&quot;;
+button-selection-color:black;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>6</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="63" column="1">
+      <widget class="QLabel" name="label_176">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLabel" name="label_68">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLabel" name="label_64">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_20">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_63">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_19">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label_66">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="4">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="58" column="1">
+      <widget class="QLabel" name="label_164">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="100" column="1">
+      <widget class="QLabel" name="label_197">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="96" column="1">
+      <widget class="QLabel" name="label_55">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="106" column="1">
+      <widget class="QLabel" name="label_53">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="99" column="1">
+      <widget class="QLabel" name="label_196">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="69" column="1">
+      <widget class="QLabel" name="label_169">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="66" column="1">
+      <widget class="QLabel" name="label_172">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="82" column="1">
+      <widget class="QLabel" name="label_44">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="84" column="0" rowspan="12">
+      <widget class="QLabel" name="label_13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;4&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="50" column="1">
+      <widget class="QLabel" name="label_161">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="48" column="1">
+      <widget class="QLabel" name="label_34">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="62" column="1">
+      <widget class="QLabel" name="label_175">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="61" column="1">
+      <widget class="QLabel" name="label_173">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="60" column="1">
+      <widget class="QLabel" name="label_40">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="60" column="0" rowspan="12">
+      <widget class="QLabel" name="label_11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="51" column="1">
+      <widget class="QLabel" name="label_162">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="45" column="1">
+      <widget class="QLabel" name="label_32">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="35" column="1">
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="38" column="1">
+      <widget class="QLabel" name="label_31">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="36" column="0" rowspan="12">
+      <widget class="QLabel" name="label_10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;12&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="59" column="1">
+      <widget class="QLabel" name="label_37">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label_67">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_69">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_18">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_65">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="87" column="1">
+      <widget class="QLabel" name="label_192">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="84" column="1">
+      <widget class="QLabel" name="label_50">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="89" column="1">
+      <widget class="QLabel" name="label_189">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="86" column="1">
+      <widget class="QLabel" name="label_190">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="90" column="1">
+      <widget class="QLabel" name="label_186">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="88" column="1">
+      <widget class="QLabel" name="label_191">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="93" column="1">
+      <widget class="QLabel" name="label_185">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="81" column="1">
+      <widget class="QLabel" name="label_179">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="91" column="1">
+      <widget class="QLabel" name="label_188">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="92" column="1">
+      <widget class="QLabel" name="label_187">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="1">
+      <widget class="QLabel" name="label_25">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="1">
+      <widget class="QLabel" name="label_144">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="label_139">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="30" column="1">
+      <widget class="QLabel" name="label_151">
+       <property name="styleSheet">
+        <string notr="true">line:rgb(119, 119, 255)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QLabel" name="label_140">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="34" column="1">
+      <widget class="QLabel" name="label_146">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="label_137">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="label_70">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1">
+      <widget class="QLabel" name="label_23">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="25" column="1">
+      <widget class="QLabel" name="label_27">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="29" column="1">
+      <widget class="QLabel" name="label_150">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="26" column="1">
+      <widget class="QLabel" name="label_145">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="27" column="1">
+      <widget class="QLabel" name="label_147">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="57" column="1">
+      <widget class="QLabel" name="label_165">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="label_138">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="1">
+      <widget class="QLabel" name="label_142">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="1">
+      <widget class="QLabel" name="label_24">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="85" column="1">
+      <widget class="QLabel" name="label_51">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="67" column="1">
+      <widget class="QLabel" name="label_171">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="71" column="1">
+      <widget class="QLabel" name="label_38">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="73" column="1">
+      <widget class="QLabel" name="label_178">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="74" column="1">
+      <widget class="QLabel" name="label_177">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="97" column="1">
+      <widget class="QLabel" name="label_194">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="75" column="1">
+      <widget class="QLabel" name="label_180">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="122" column="1">
+      <widget class="QLabel" name="label_210">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="78" column="1">
+      <widget class="QLabel" name="label_45">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="143" column="1">
+      <widget class="QLabel" name="label_217">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="141" column="1">
+      <widget class="QLabel" name="label_222">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="135" column="1">
+      <widget class="QLabel" name="label_226">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="134" column="1">
+      <widget class="QLabel" name="label_224">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="124" column="1">
+      <widget class="QLabel" name="label_215">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="104" column="1">
+      <widget class="QLabel" name="label_54">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="127" column="1">
+      <widget class="QLabel" name="label_214">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="110" column="1">
+      <widget class="QLabel" name="label_208">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="138" column="1">
+      <widget class="QLabel" name="label_227">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="137" column="1">
+      <widget class="QLabel" name="label_229">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="125" column="1">
+      <widget class="QLabel" name="label_216">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="123" column="1">
+      <widget class="QLabel" name="label_213">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="132" column="1">
+      <widget class="QLabel" name="label_218">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="140" column="1">
+      <widget class="QLabel" name="label_223">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="136" column="1">
+      <widget class="QLabel" name="label_228">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="133" column="1">
+      <widget class="QLabel" name="label_221">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="129" column="1">
+      <widget class="QLabel" name="label_212">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="128" column="1">
+      <widget class="QLabel" name="label_211">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="label_22">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="31" column="1">
+      <widget class="QLabel" name="label_152">
+       <property name="styleSheet">
+        <string notr="true">line:rgb(119, 119, 255)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="80" column="1">
+      <widget class="QLabel" name="label_181">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="131" column="1">
+      <widget class="QLabel" name="label_49">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="142" column="1">
+      <widget class="QLabel" name="label_220">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="72" column="0" rowspan="12">
+      <widget class="QLabel" name="label_12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="68" column="1">
+      <widget class="QLabel" name="label_170">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="49" column="1">
+      <widget class="QLabel" name="label_35">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="54" column="1">
+      <widget class="QLabel" name="label_167">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="55" column="1">
+      <widget class="QLabel" name="label_168">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="65" column="1">
+      <widget class="QLabel" name="label_174">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="76" column="1">
+      <widget class="QLabel" name="label_182">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="70" column="1">
+      <widget class="QLabel" name="label_39">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="64" column="1">
+      <widget class="QLabel" name="label_41">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="72" column="1">
+      <widget class="QLabel" name="label_43">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="79" column="1">
+      <widget class="QLabel" name="label_184">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="77" column="1">
+      <widget class="QLabel" name="label_183">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="83" column="1">
+      <widget class="QLabel" name="label_42">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="42" column="1">
+      <widget class="QLabel" name="label_158">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="40" column="1">
+      <widget class="QLabel" name="label_155">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="47" column="1">
+      <widget class="QLabel" name="label_33">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="52" column="1">
+      <widget class="QLabel" name="label_163">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="46" column="1">
+      <widget class="QLabel" name="label_157">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="53" column="1">
+      <widget class="QLabel" name="label_166">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="37" column="1">
+      <widget class="QLabel" name="label_153">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="43" column="1">
+      <widget class="QLabel" name="label_159">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="1">
+      <widget class="QLabel" name="label_143">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="0" rowspan="12">
+      <widget class="QLabel" name="label_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;11&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="28" column="1">
+      <widget class="QLabel" name="label_149">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="32" column="1">
+      <widget class="QLabel" name="label_28">
+       <property name="styleSheet">
+        <string notr="true">line:rgb(119, 119, 255)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="1">
+      <widget class="QLabel" name="label_141">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="1">
+      <widget class="QLabel" name="label_26">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="41" column="1">
+      <widget class="QLabel" name="label_156">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="39" column="1">
+      <widget class="QLabel" name="label_154">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="33" column="1">
+      <widget class="QLabel" name="label_148">
+       <property name="styleSheet">
+        <string notr="true">line:rgb(119, 119, 255)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="36" column="1">
+      <widget class="QLabel" name="label_30">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="111" column="1">
+      <widget class="QLabel" name="label_207">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="112" column="1">
+      <widget class="QLabel" name="label_206">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="105" column="1">
+      <widget class="QLabel" name="label_193">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="48" column="0" rowspan="12">
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="44" column="1">
+      <widget class="QLabel" name="label_160">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="56" column="1">
+      <widget class="QLabel" name="label_36">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="130" column="1">
+      <widget class="QLabel" name="label_60">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" rowspan="12">
+      <widget class="QLabel" name="label_7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="sizeIncrement">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="132" column="0" rowspan="12">
+      <widget class="QLabel" name="label_230">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;8&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="126" column="1">
+      <widget class="QLabel" name="label_61">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="139" column="1">
+      <widget class="QLabel" name="label_225">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="98" column="1">
+      <widget class="QLabel" name="label_195">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="108" column="1">
+      <widget class="QLabel" name="label_48">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="108" column="0" rowspan="12">
+      <widget class="QLabel" name="label_15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;6&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="107" column="1">
+      <widget class="QLabel" name="label_47">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="109" column="1">
+      <widget class="QLabel" name="label_58">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="102" column="1">
+      <widget class="QLabel" name="label_199">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="96" column="0" rowspan="12">
+      <widget class="QLabel" name="label_14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;5&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="116" column="1">
+      <widget class="QLabel" name="label_202">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="115" column="1">
+      <widget class="QLabel" name="label_203">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="113" column="1">
+      <widget class="QLabel" name="label_205">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="114" column="1">
+      <widget class="QLabel" name="label_204">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="101" column="1">
+      <widget class="QLabel" name="label_198">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="103" column="1">
+      <widget class="QLabel" name="label_200">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="117" column="1">
+      <widget class="QLabel" name="label_201">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="118" column="1">
+      <widget class="QLabel" name="label_57">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="95" column="1">
+      <widget class="QLabel" name="label_46">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="120" column="0" rowspan="12">
+      <widget class="QLabel" name="label_16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;7&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="119" column="1">
+      <widget class="QLabel" name="label_56">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="120" column="1">
+      <widget class="QLabel" name="label_62">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="121" column="1">
+      <widget class="QLabel" name="label_209">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="94" column="1">
+      <widget class="QLabel" name="label_52">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLabel" name="label_21">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0" rowspan="12">
+      <widget class="QLabel" name="label_8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>카페24 써라운드 </family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드 &quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;10&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>카페24 써라운드</family>
+      <pointsize>48</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 48pt &quot;카페24 써라운드&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:600;&quot;&gt;시간표&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setting_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>46</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+background-color:white;
+border-radius: 10px;
+}
+
+QPushButton::hover {
+	background-color: rgb(200, 200, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>43</y>
+      <width>38</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+font: 20pt &quot;휴먼둥근헤드라인&quot;;
+background-color:white;
+border-radius: 5px;
+}
+
+QPushButton::hover {
+	background-color: rgb(200, 200, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="gridFrame_2">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>104</y>
+      <width>370</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_231">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드&quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;수&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드&quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;월&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="label_233">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드&quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;금&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_219">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드&quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;화&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_232">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>4</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(198, 198, 198);
+font: 75 11pt &quot;카페24 써라운드&quot;;
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;목&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="school_homepage">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>43</y>
+      <width>55</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+
+border-radius: 15px;
+}
+
+QPushButton::hover {
+	background-color: rgb(200, 200, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>46</y>
+      <width>25</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+
+border-radius: 5px;
+}
+
+QPushButton::hover {
+	background-color: rgb(200, 200, 200);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_59">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>103</y>
+      <width>74</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: white;
+border:1px solid rgb(198, 198, 198);
+border-radius: 2px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>519</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>476</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>476</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>exit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>472</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>38</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>addSubject()</slot>
+  <slot>exit()</slot>
+ </slots>
+</ui>
